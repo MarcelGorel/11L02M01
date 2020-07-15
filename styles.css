@@ -1,0 +1,885 @@
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 60px auto auto auto auto 10px;
+    background-image: url(dartflight.jpg);
+} 
+    /* css header */
+.container-grid > nav > div {
+    flex: 1;
+    
+  }
+
+.header{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 13;
+                    
+}
+.header > div {
+    padding: 20px;
+    text-align: center;
+    font-size: 4vw;
+    color: #ffeead;
+}
+a{ 
+    text-decoration: none;
+    color: black
+}
+
+.header > div:nth-child(1){background-color: rgb(220, 220, 231);}
+.header > div:nth-child(2){background-color: rgb(220, 220, 231);}  
+.header > div:nth-child(3){background-color: rgb(220, 220, 231);}
+.header > div:nth-child(4){background-color: rgb(220, 220, 231);}
+
+nav div:nth-child(1):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(2):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(3):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(4):hover{ background: rgb(174, 217, 241)}
+
+.active{
+    color:green;
+}
+/* css titel */
+.titel{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+}
+.h1-titel{
+    margin-top: 2em;
+    padding:0em;
+    text-align: center;
+    font-size: 6vw;
+    color:green;
+
+}
+
+
+/* home css main */
+.main{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+.h1-main{
+    margin:2em;
+    padding:1em;
+    text-align: center;
+    font-size: 4vw;
+    color:green;
+    text-decoration: underline;
+}
+.h2-main{
+    margin:2px;
+    padding:1em;
+    text-align: center;
+    font-size: 3vw;
+    color:green;
+}
+.h2-main a{
+    margin:2px;
+    padding:1em;
+    text-align: center;
+    font-size: 3vw;
+    color:green;
+}
+
+.box-1 ul{    
+    text-align-last:center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.box-1 ul li{
+    text-align-last:center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 40px;
+    overflow: hidden;
+}
+.box-1 div{ 
+    margin: 10px;
+       
+        
+}
+.green-border{
+    border: dotted 2px green;
+}
+       
+/* home css shop  */
+
+.shop{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: red;
+}
+.h1-shop{
+    margin:1em;
+    padding:0.5em;
+    text-align: center;
+    font-size: 4vw;
+    color:red;
+    text-decoration: underline;
+}
+
+.box-1 div ul li{
+    border: dotted red;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 10px;
+    background: rgb(220, 220, 231);
+    background-blend-mode: color 50%;
+    
+}
+
+
+/* home css film  */
+
+.film{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: green;
+}
+.h1-film{
+    margin:1em;
+    padding:0.5em;
+    text-align: center;
+    font-size: 4vw;
+    color:green;
+    text-decoration: underline;
+}
+
+
+
+/* home css footer */
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    text-align: center;
+    color: black;
+    
+    
+}
+
+.footer p{
+    border-top: dotted green;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    font-style: italic;
+    
+}
+
+/* nieuws css main */
+
+.main-nieuws{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+.box-3 p{
+    text-align: left;
+    margin:20px;
+    padding:10px;
+}
+
+.main-nieuws p img{
+    float: right;
+}
+
+.h1-nieuws{
+    margin:2em;
+    padding: 1em;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    border-top: solid black 2px;
+}
+.h2-nieuws{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
+  
+}
+
+/* competitie css main */
+
+.main-competitie{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+.box-4{
+    text-align: left;
+}
+.box-4 p{
+    text-decoration: underline;
+}
+
+.h1-competitie{
+    margin:2em;
+    padding: 1em;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    
+}
+
+/* contact css main */
+
+.h1-contact{
+    margin:0em;
+    padding: 1em;
+    text-align: left;
+    font-size: 6vw;
+    color: black;
+    
+}
+
+.main-contact{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+/* Media query */
+
+@media (min-width: 1024px) {
+
+    .container-grid{
+        display: grid;
+        height: 100%;
+        grid-gap: 10px;
+        grid-template-columns: repeat (12, 1fr);
+        grid-template-rows: 100px auto auto auto auto 10px;
+        grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "t t t t t t t t t t t t"
+        "m m m m m m m m m m m m"
+        "m m m m m m m m m m m m"
+        "i i i i i i s s s s s s"
+        "f f f f f f f f f f f f";
+    }
+    
+        /* css header */
+.container-grid > nav > div {
+    flex: 1;
+    
+  }
+
+.header{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-area: h;
+                    
+}
+.header > div {
+    padding: 20px;
+    text-align: center;
+    font-size: 4vw;
+    color: #ffeead;
+}
+a{ 
+    text-decoration: none;
+    color: black
+}
+
+.header > div:nth-child(1){background-color: rgb(220, 220, 231);}
+.header > div:nth-child(2){background-color: rgb(220, 220, 231);}  
+.header > div:nth-child(3){background-color: rgb(220, 220, 231);}
+.header > div:nth-child(4){background-color: rgb(220, 220, 231);}
+
+nav div:nth-child(1):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(2):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(3):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(4):hover{ background: rgb(174, 217, 241)}
+
+.active{
+    color:green;
+}
+
+/* css titel */
+
+.titel{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    grid-area: t;
+}
+.h1-titel{
+    margin-top: 1em;
+    padding:0em;
+    text-align: center;
+    font-size: 6vw;
+    color:grey;
+
+}
+
+/* home css main */
+
+.main{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+    grid-area: m;
+}
+.h1-main{
+    margin:0.5em;
+    padding:1em;
+    text-align: center;
+    font-size: 4vw;
+    color:green;
+    text-decoration: underline;
+}
+.h2-main{
+    margin:2px;
+    padding:1em;
+    text-align: center;
+    font-size: 3vw;
+    color:green;
+}
+.h2-main a{
+    margin:2px;
+    padding:1em;
+    text-align: center;
+    font-size: 3vw;
+    color:green;
+}
+
+.box-1 ul{    
+    text-align-last:center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.box-1 ul li{
+    text-align-last:center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 40px;
+    overflow: hidden;
+}
+.box-1 div{ 
+    margin: 10px;
+       
+        
+}
+.green-border{
+    border: dotted 2px green;
+}
+       
+/* home css shop  */
+
+.shop{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: green;
+    grid-area: s;
+}
+.h1-shop{
+    margin:1em;
+    padding:0.5em;
+    text-align: center;
+    font-size: 4vw;
+    color: green;
+    text-decoration: underline;
+}
+
+.box-1 div ul li{
+    border: dotted greenyellow;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 10px;
+    background: rgb(220, 220, 231);
+    background-blend-mode: color 50%;
+    
+}
+
+
+/* home css film  */
+
+.film{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: green;
+    grid-area: i;
+}
+.h1-film{
+    margin:0.5em;
+    padding:1em;
+    text-align: center;
+    font-size: 4vw;
+    color:green;
+    text-decoration: underline;
+}
+
+
+
+/* home css footer */
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    text-align: center;
+    color: black;
+    grid-area: f;
+    
+    
+}
+
+.footer p{
+    border-top: dotted green;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    font-style: italic;
+    
+}
+
+/* nieuws css main */
+
+.main-nieuws{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+.box-3 p{
+    text-align: left;
+    margin:20px;
+    padding:10px;
+}
+
+.main-nieuws p img{
+    float: right;
+    
+}
+
+.h1-nieuws{
+    margin:0.5em;
+    padding: 1em;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    border-top: solid black 2px;
+}
+.h2-nieuws{
+    text-align: left;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
+  
+}
+p{
+    text-align: left;
+    font-size: 1.5vw;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
+
+}
+
+/* competitie css main */
+
+.main-competitie{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+.box-4{
+    text-align: left;
+}
+.box-4 p{
+    text-decoration: underline;
+}
+
+.h1-competitie{
+    margin:2em;
+    padding: 1em;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+
+    
+    
+}
+/* contact css main */
+
+.main-contact{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+.h1-contact{
+    margin:0em;
+    padding: 1em;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    
+}
+}
+
+   
+@media (min-width: 1200px) {
+
+    .container-grid{
+        display: grid;
+        height: 100%;
+        grid-gap: 10px;
+        grid-template-columns: repeat (12, 1fr);
+        grid-template-rows: 100px auto auto auto auto 10px;
+        grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "t t t t t t t t t t t t"
+        "m m m m m m i i i i i i"
+        "m m m m m m i i i i i i"
+        "m m m m m m s s s s s s"
+        "f f f f f f f f f f f f";
+    }
+    
+        /* css header */
+.container-grid > nav > div {
+    flex: 1;
+    
+  }
+
+.header{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-area: h;
+                    
+}
+.header > div {
+    padding: 20px;
+    text-align: center;
+    font-size: 4vw;
+    color: #ffeead;
+}
+a{ 
+    text-decoration: none;
+    color: black
+}
+
+.header > div:nth-child(1){background-color: rgb(220, 220, 231);}
+.header > div:nth-child(2){background-color: rgb(220, 220, 231);}  
+.header > div:nth-child(3){background-color: rgb(220, 220, 231);}
+.header > div:nth-child(4){background-color: rgb(220, 220, 231);}
+
+nav div:nth-child(1):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(2):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(3):hover{ background: rgb(174, 217, 241)}
+nav div:nth-child(4):hover{ background: rgb(174, 217, 241)}
+
+.active{
+    color:green;
+}
+
+/* css titel */
+
+.titel{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    grid-area: t;
+}
+.h1-titel{
+    margin-top: 1em;
+    padding:0em;
+    text-align: center;
+    font-size: 6vw;
+    color:black;
+
+}
+
+/* home css main */
+
+.main{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+    grid-area: m;
+}
+.h1-main{
+    margin:0.5em;
+    padding:1em;
+    text-align: center;
+    font-size: 4vw;
+    color:green;
+    text-decoration: underline;
+}
+.h2-main{
+    margin:2px;
+    padding:1em;
+    text-align: center;
+    font-size: 3vw;
+    color:green;
+}
+.h2-main a{
+    margin:2px;
+    padding:1em;
+    text-align: center;
+    font-size: 3vw;
+    color:green;
+}
+
+.box-1 ul{    
+    text-align-last:center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.box-1 ul li{
+    text-align-last:center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 40px;
+    overflow: hidden;
+}
+.box-1 div{ 
+    margin: 10px;
+       
+        
+}
+.green-border{
+    border: dotted 2px green;
+}
+       
+/* home css shop  */
+
+.shop{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: red;
+    grid-area: s;
+}
+.h1-shop{
+    margin:1em;
+    padding:0.5em;
+    text-align: center;
+    font-size: 4vw;
+    color:red;
+    text-decoration: underline;
+}
+
+.box-1 div ul li{
+    border: dotted red;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 10px;
+    background: rgb(220, 220, 231);
+    background-blend-mode: color 50%;
+    
+}
+
+
+/* home css film  */
+
+.film{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: red;
+    grid-area: i;
+}
+.h1-film{
+    margin:0.5em;
+    padding:1em;
+    text-align: center;
+    font-size: 4vw;
+    color:red;
+    text-decoration: underline;
+}
+
+
+
+/* home css footer */
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    text-align: center;
+    color: black;
+    grid-area: f;
+    
+    
+}
+
+.footer p{
+    border-top: dotted green;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    font-style: italic;
+    
+}
+
+/* nieuws css main */
+
+.main-nieuws{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+.box-3 p{
+    text-align: left;
+    margin:20px;
+    padding:10px;
+}
+
+.main-nieuws p img{
+    float: right;
+    
+}
+
+.h1-nieuws{
+    margin:0.5em;
+    padding: 1em;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    border-top: solid black 2px;
+}
+.h2-nieuws{
+    text-align: left;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
+  
+}
+p{
+    text-align: left;
+    font-size: 1.5vw;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
+
+}
+
+/* competitie css main */
+
+.main-competitie{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+.box-4{
+    text-align: left;
+}
+.box-4 p{
+    text-decoration: underline;
+}
+
+.h1-competitie{
+    margin:2em;
+    padding: 1em;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+
+    
+    
+}
+/* contact css main */
+
+.main-contact{
+    grid-column-start: 1;
+    grid-column-end: 13;    
+    background-repeat: 1;
+    background-size: auto;
+    text-align: center;
+    color: black;
+}
+
+.h1-contact{
+    margin:0em;
+    padding: 1em;
+    text-align: center;
+    font-size: 4vw;
+    color: black;
+    
+}
+}
